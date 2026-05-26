@@ -16,11 +16,11 @@ Fixar ainda mais a estrutura do pipeline ETL no tratamento de dados utilizando a
 ## Observações
 Neste segundo pipeline pude perceber que a estrutura para tratamento de arquivos csv se mantem a mesma, além disso durante o tratamento das datas, identifiquei um problema de ambiguidade de formato.
 
-Exemplo:
-```text
-23-03-24
+Exemplo:\
 
-Esse valor pode representar tanto:
+23-03-24\
+
+Esse valor pode representar tanto:\
 
 * `DD-MM-YY`
 * `YY-MM-DD`
